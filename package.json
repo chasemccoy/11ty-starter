@@ -1,0 +1,33 @@
+{
+  "name": "@chasemccoy/11ty-starter",
+  "version": "1.0.0",
+  "description": "A starter repository for building a web site using the Eleventy.",
+  "scripts": {
+    "build": "yarn clean && eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy",
+    "clean": "rm -rf _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chasemccoy/11ty-starter.git"
+  },
+  "author": {
+    "name": "Chase McCoy",
+    "email": "hi@chasem.co",
+    "url": "https://chasem.co"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/chasemccoy/11ty-starter#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-navigation": "^0.3.3",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "luxon": "^2.4.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.4"
+  }
+}
